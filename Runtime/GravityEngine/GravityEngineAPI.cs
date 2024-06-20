@@ -38,6 +38,7 @@ using com.kwai.mini.game.config;
 
 namespace GravityEngine
 {
+    [DefaultExecutionOrder(short.MinValue)]
     [DisallowMultipleComponent]
     public class GravityEngineAPI : MonoBehaviour
     {
