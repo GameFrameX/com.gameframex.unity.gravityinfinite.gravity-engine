@@ -1,6 +1,8 @@
 {
     "name": "GravityEngine.Runtime",
-    "references": [],
+    "references": [
+      "Wx"
+    ],
     "rootNamespace": "GravityEngine.Runtime",
     "includePlatforms": [],
     "excludePlatforms": [],
