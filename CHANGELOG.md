@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.2](https://github.com/GameFrameX/com.gameframex.unity.gravityinfinite.gravity-engine/tree/1.0.2) (2025-06-01)
+
+[Full Changelog](https://github.com/GameFrameX/com.gameframex.unity.gravityinfinite.gravity-engine/compare/1.0.1...1.0.2)
+
 ## [1.0.1](https://github.com/GameFrameX/com.gameframex.unity.gravityinfinite.gravity-engine/tree/1.0.1) (2025-05-31)
 
 [Full Changelog](https://github.com/GameFrameX/com.gameframex.unity.gravityinfinite.gravity-engine/compare/1.0.0...1.0.1)
