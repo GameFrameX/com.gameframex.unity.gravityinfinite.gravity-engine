@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/gameframex/com.gameframex.unity.gravityinfinite.gravity-engine/compare/1.0.2...1.1.0) (2025-12-24)
+
+
+### Features
+
+* **ci:** change ci ([d42949f](https://github.com/gameframex/com.gameframex.unity.gravityinfinite.gravity-engine/commit/d42949f3b4dad0e7b322a409811922f14d33982e))
+
 # Changelog
 
 ## [1.0.2](https://github.com/GameFrameX/com.gameframex.unity.gravityinfinite.gravity-engine/tree/1.0.2) (2025-06-01)
