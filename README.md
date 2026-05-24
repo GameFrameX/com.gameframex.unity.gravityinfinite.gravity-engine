@@ -1,31 +1,71 @@
-﻿## HOMEPAGE
+<div align="center">
+  <img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="GameFrameX Logo" width="160" />
 
-# 引力引擎 Unity SDK 接入指南
+  # GameFrameX Gravity Engine
 
-本文档为**Unity**接入 [引力引擎](https://gravity-engine.com/)的技术接入方案，具体 Demo
-请参考[GitHub](https://github.com/GravityInfinite/Turbo-Unity-Demo)开源项目，Demo 工程中可以参考 `GravityEngineDemo.cs` 脚本中对每一个方法的调用示例。
+  [![Version](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.gravityinfinite.gravity-engine)](https://github.com/GameFrameX/com.gameframex.unity.gravityinfinite.gravity-engine/releases)
+  [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE.md)
+  [![Documentation](https://img.shields.io/badge/docs-gameframex-blue.svg)](https://gameframex.doc.alianblank.com)
 
-**引力引擎SDK** 是为Android平台实现的代码埋点+买量归因的工具 SDK，目前 SDK 的兼容性如下：
+  All-in-One Solution for Indie Game Development · Empowering Indie Developers' Dreams
 
-支持媒体
+  [Documentation](https://gameframex.doc.alianblank.com) | [Quick Start](#quick-start)
 
-- 头条巨量引擎
-- 快手磁力引擎
-- 腾讯广告
-- 百度营销
+  **English** | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
+</div>
 
-> 更多平台正在支持中，详细的使用说明，请参考我们的[官方使用手册](https://doc.gravity-engine.com/#/turbo-integrated/unity/unity-sdk)。
+---
 
-# 快捷使用(小游戏)
+## Project Overview
 
-菜单栏 Tools->Gravity Engine->开启对应宏定义启用
+Unity SDK integration guide for [Gravity Engine](https://gravity-engine.com/). For a complete demo, refer to the [GitHub](https://github.com/GravityInfinite/Turbo-Unity-Demo) open source project. The `GravityEngineDemo.cs` script in the demo project provides method call examples.
 
-# 使用方式(任选其一)
+The **Gravity Engine SDK** is an Android platform SDK that implements code-based event tracking and ad attribution. Currently supported media platforms:
 
-1. 直接在 `manifest.json` 的文件中的 `dependencies` 节点下添加以下内容
-   ```json
-      {"com.gameframex.unity.gameanalytics": "https://github.com/AlianBlank/com.gameframex.unity.gameanalytics.git"}
-    ```
-2. 在Unity 的`Packages Manager` 中使用`Git URL` 的方式添加库,地址为：https://github.com/AlianBlank/com.gameframex.unity.gameanalytics.git
+- Toutiao Ocean Engine
+- Kuaishou Magnetic Engine
+- Tencent Advertising
+- Baidu Marketing
 
-3. 直接下载仓库放置到Unity 项目的`Packages` 目录下。会自动加载识别
+> More platforms are being supported. For detailed usage instructions, please refer to the [official user manual](https://doc.gravity-engine.com/#/turbo-integrated/unity/unity-sdk).
+
+## Quick Use (Mini Games)
+
+Enable via menu bar: Tools -> Gravity Engine -> Enable the corresponding macro definition
+
+## Installation
+
+### Via Git URL (Recommended)
+
+1. Open Package Manager in Unity Editor
+2. Click the "+" button and select "Add package from git URL"
+3. Enter the following URL:
+   ```
+   https://github.com/GameFrameX/com.gameframex.unity.gravityinfinite.gravity-engine.git
+   ```
+
+### Via manifest.json
+
+Add the following to your project's `Packages/manifest.json`:
+
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.gravityinfinite.gravity-engine": "https://github.com/GameFrameX/com.gameframex.unity.gravityinfinite.gravity-engine.git"
+  }
+}
+```
+
+### Manual Installation
+
+1. Download the latest release package
+2. Extract it to your project's `Packages` directory
+3. Unity will automatically recognize and load the package
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for details.
+
+## License
+
+This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for details.
