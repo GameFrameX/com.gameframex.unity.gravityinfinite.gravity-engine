@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/gameframex/com.gameframex.unity.gravityinfinite.gravity-engine/compare/1.1.0...1.1.1) (2026-11-10)
+
+
+### Bug Fixes
+
+* **gravityinfinite.gravity-engine:** 添加完整 link.xml 防代码裁剪保护 ([4de02f8](https://github.com/gameframex/com.gameframex.unity.gravityinfinite.gravity-engine/commit/4de02f8f40f4547067c8a0a5abda068ae68089df))
+
 # [1.1.0](https://github.com/gameframex/com.gameframex.unity.gravityinfinite.gravity-engine/compare/1.0.2...1.1.0) (2025-12-24)
 
 
