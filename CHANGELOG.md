@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/gameframex/com.gameframex.unity.gravityinfinite.gravity-engine/compare/1.1.1...1.1.2) (2026-11-11)
+
+
+### Bug Fixes
+
+* **gravity-engine:** 显式限定 DontDestroyOnLoad 调用 ([052b8e8](https://github.com/gameframex/com.gameframex.unity.gravityinfinite.gravity-engine/commit/052b8e8bb7cedcda427ab195bcc5d9c8416a5f48))
+
 ## [1.1.1](https://github.com/gameframex/com.gameframex.unity.gravityinfinite.gravity-engine/compare/1.1.0...1.1.1) (2026-11-10)
 
 
