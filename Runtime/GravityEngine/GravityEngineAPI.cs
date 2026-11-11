@@ -1497,7 +1497,7 @@ namespace GravityEngine
             if (_sGravityEngineAPI == null)
             {
                 _sGravityEngineAPI = this;
-                DontDestroyOnLoad(gameObject);
+                UnityEngine.Object.DontDestroyOnLoad(gameObject);
             }
             else
             {

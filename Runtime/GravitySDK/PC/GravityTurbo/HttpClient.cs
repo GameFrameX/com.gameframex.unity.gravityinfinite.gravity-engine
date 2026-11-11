@@ -46,10 +46,10 @@ namespace GravitySDK.PC.GravityTurbo
                             instance = singleton.AddComponent<UnityWebRequestMgr>();
                             singleton.name = "(singleton)" + typeof(UnityWebRequestMgr);
                             singleton.hideFlags = HideFlags.None;
-                            DontDestroyOnLoad(singleton);
+                            UnityEngine.Object.DontDestroyOnLoad(singleton);
                         }
                         else
-                            DontDestroyOnLoad(instance.gameObject);
+                            UnityEngine.Object.DontDestroyOnLoad(instance.gameObject);
                     }
 
                     instance.hideFlags = HideFlags.None;
